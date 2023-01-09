@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<head>
+   <style>
+.container{
+      max-width: 400px;
+      width: 100%;
+      background: #FFF;
+      padding: 40px;
+      border-radius: 20px;
+      position: relative;
+      margin: auto;
+      background-color: whitesmoke;
+      align-content: center;
+
+}
+
+.background{
+    background-color: cornflowerblue;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    
+
+}
+
+.title{
+    text-align: center;
+    margin-top: 30px;
+    
+
+}
+
+label, .links,button {
+    margin-top: 30px;
+}
+
+label{
+    margin-top: 20px;
+    font-size: 12px;
+    color: rgb(77, 77, 777);
+    font-weight: 600;
+}
+
+.input{
+    padding: 8px;
+    outline: none;
+    border: 0;
+    background: #EEE;
+
+}
+
+h2{
+    text-transform: uppercase;
+    color: rgb(42, 86, 111);
+    padding: 10px;
+    
+}
+
+button{
+    background: linear-gradient(to right, #568cc5, #146181);
+    padding: 8px;
+    border: 0;
+    color: #FFF;
+    font-size: 15px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+   
+}
+
+</style>
+</head>
+<title> Login Page </title>
+<body>
+    <body>
+       <div class ="container"> 
+        <h2 class="title">Login</h2>
+        <form class="form" method="POST">
+           <label for="username">Username</label>
+           <input type="text" id="username" class="input"
+                 autocomplete="off" placeholder="Type Here!" />
+            <label for="password">Password</label>
+           <input type="text" id="password" class="input"
+                autocomplete="off" placeholder="Type Here!" />
+                <button type="reset">Reset</button> 
+                <button type="submit">Login</button>
+        </form>
+    </div>
+</body>
+</html>
